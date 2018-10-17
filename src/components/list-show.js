@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import { deletePost } from "../actions/fetch-data";
 import {GOOGLE_MAP_API} from '../config'
@@ -8,7 +8,7 @@ import {GOOGLE_MAP_API} from '../config'
 class List extends Component {
     constructor(props) {
         super(props);
-
+		
         this.clickControl = this.clickControl.bind(this);
         this.onDeleteClick = this.onDeleteClick.bind(this);
     };
@@ -21,7 +21,8 @@ class List extends Component {
 
 
     onDeleteClick(e) {
-        e.stopPropagation();
+//		e.preventDefault();
+//        e.stopPropagation();
 
         const { id } = this.props;
 		this.props.deletePost(id);
@@ -78,12 +79,14 @@ class List extends Component {
                             <button onClick={this.clickControl.bind(this)} id="edit-button" className="button edit-button" >edit note</button>
                         </Link>
                         <br/>
-                        <button onClick={this.onDeleteClick.bind(this)} id="delete-button" className="button delete-button" >delete</button>
+						<Link to='/mylist'>
+                        <button onClick={this.onDeleteClick} id="delete-button" className="button delete-button" >delete</button>
+						</Link>
                     </div>
                 </div>
         )
     };
 }
 
-export default connect(null, { deletePost })(List);
+export default withRouter(connect(null, { deletePost })(List));
 

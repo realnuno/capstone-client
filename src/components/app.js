@@ -52,8 +52,8 @@ export class App extends React.Component {
                 <Route path="/edit-item/:id" component={EditItem} />
                 <Route path="/mylist" component={MyList} />
                 <Route path="/register" component={RegistrationPage} />
-                <Footer />
 			</Switch>
+                <Footer />
             </div>
         );
     }

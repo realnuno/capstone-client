@@ -663,7 +663,7 @@ footer ion-icon {
 .edit-button,
 .delete-button {
     display: inline-block;
-    margin: 20px auto;
+/*    margin: 20px auto;*/
     color: #a3a3a3;
 }
 

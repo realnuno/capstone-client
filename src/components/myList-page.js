@@ -15,7 +15,7 @@ class MyList extends Component {
 
 
     render() {
-
+		console.log('rerender');
         if(!this.props.mylist){
             return (
             <div>
