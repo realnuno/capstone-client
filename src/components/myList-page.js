@@ -15,7 +15,6 @@ class MyList extends Component {
 
 
     render() {
-		console.log('rerender');
         if(!this.props.mylist){
             return (
             <div>
@@ -27,12 +26,10 @@ class MyList extends Component {
                     </div>
                 </div>
             </div>
-        )
+        	)
         }
 
         const data = this.props.mylist;
-
-//        console.log(data)
 
         const displayResults = data.map((item, index) =>
             <li key={index}>

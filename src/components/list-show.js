@@ -21,12 +21,12 @@ class List extends Component {
 
 
     onDeleteClick(e) {
-//		e.preventDefault();
-//        e.stopPropagation();
 
         const { id } = this.props;
 		this.props.deletePost(id);
+		window.location.reload();
 		this.props.history.push("/mylist");
+		window.scrollTo(0, 0)
     }
 
 
@@ -79,9 +79,9 @@ class List extends Component {
                             <button onClick={this.clickControl.bind(this)} id="edit-button" className="button edit-button" >edit note</button>
                         </Link>
                         <br/>
-						<Link to='/mylist'>
+						
                         <button onClick={this.onDeleteClick} id="delete-button" className="button delete-button" >delete</button>
-						</Link>
+						
                     </div>
                 </div>
         )
