@@ -15,19 +15,17 @@ class List extends Component {
 
 
     clickControl(e){
-//        e.preventDefault();
         e.stopPropagation();
         return false
     }
 
 
     onDeleteClick(e) {
-//        e.preventDefault();
         e.stopPropagation();
 
         const { id } = this.props;
-
-        this.props.deletePost(id);
+		this.props.deletePost(id);
+		this.props.history.push("/mylist");
     }
 
 
@@ -80,9 +78,7 @@ class List extends Component {
                             <button onClick={this.clickControl.bind(this)} id="edit-button" className="button edit-button" >edit note</button>
                         </Link>
                         <br/>
-                        <Link to="/mylist">
-                            <button onClick={this.onDeleteClick.bind(this)} id="delete-button" className="button delete-button" >delete</button>
-                        </Link>
+                        <button onClick={this.onDeleteClick.bind(this)} id="delete-button" className="button delete-button" >delete</button>
                     </div>
                 </div>
         )
