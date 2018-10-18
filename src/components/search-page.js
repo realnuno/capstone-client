@@ -1,6 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-//import {required, nonEmpty} from '../validators';
 import HeaderBar from './header-bar';
 
 export default class SearchPage extends React.Component {
