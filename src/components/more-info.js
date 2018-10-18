@@ -165,6 +165,7 @@ class MoreDetail extends Component {
                             <p className='result-address'>address : {detailAddress}</p>
                             <textarea
                                 ref={input => this.textInput = input}
+								required="required"
                                 name='note'
                                 rows="4" cols="50" className="note-textarea" placeholder="note.."></textarea>
                         </div>
