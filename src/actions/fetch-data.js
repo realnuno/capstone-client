@@ -59,7 +59,6 @@ export const fetchData = city => (dispatch, getState) => {
 
 
 export const fetchMoreInfo = venueId => (dispatch, getState) => {
-	console.log('output');
     const authToken = getState().auth.authToken;
     return fetch(`${API_BASE_URL}/api/searchmore?venueId=${encodeURIComponent(venueId)}`, {
             method: 'GET',

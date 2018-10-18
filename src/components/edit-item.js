@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import Spinner from 'react-spinkit';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import { fetchToEdit, editMemoInList } from "../actions/fetch-data";
 import {GOOGLE_MAP_API} from '../config';
@@ -10,7 +11,7 @@ class EditItem extends Component {
     constructor(props) {
         super(props);
 
-		this.clickControl = this.clickControl.bind(this);
+        this.clickControl = this.clickControl.bind(this);
         this.onEditSubmit = this.onEditSubmit.bind(this);
         this.prevPage = this.prevPage.bind(this);
     }
@@ -44,7 +45,7 @@ class EditItem extends Component {
         this.props.history.push("/mylist");
     }
 
-	clickControl(e){
+    clickControl(e){
 //        e.preventDefault();
         e.stopPropagation();
         return false
@@ -56,13 +57,17 @@ class EditItem extends Component {
 
 
         if(!this.props.itemsToEdit){
-            return  <div>Loading...</div>;
+            return (
+              <div>
+                <HeaderBar />
+                <div className="row detail-info">
+                    <Spinner spinnername="circle" fadeIn='none' />
+                </div>
+              </div>
+            )
         }
 
         const itemsToEdit = this.props.itemsToEdit;
-
-//        console.log(this.props.itemsToEdit);
-
         const detailVenueName = itemsToEdit.venueName;
         const detailCategory = itemsToEdit.category;
         const detailAddress = itemsToEdit.address;
@@ -90,7 +95,7 @@ class EditItem extends Component {
 //    ============================================================
 
         return (
-		  <div>	
+          <div>
             <HeaderBar />
             <div className="row detail-info">
                 <h2 id="venue-name">{detailVenueName}</h2>
@@ -127,7 +132,7 @@ class EditItem extends Component {
                     </div>
                 </form>
             </div>
-		  </div>
+          </div>
         )
 
     }

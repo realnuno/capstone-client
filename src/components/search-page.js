@@ -10,24 +10,23 @@ export default class SearchPage extends React.Component {
         this.state = { term: "" };
 
         this.onInputChange = this.onInputChange.bind(this);
-		this.onSearchClick = this.onSearchClick.bind(this);
+        this.onSearchClick = this.onSearchClick.bind(this);
     }
-	
-	componentDidMount() {
+
+    componentDidMount() {
         window.scrollTo(0, 0)
     };
-	
+
 
     onInputChange(event) {
         this.setState({ term: event.target.value });
     }
-	
-	onSearchClick(e) {
-		console.log(this.state.term)
-		if(this.state.term) {
-			this.props.history.push(`/result-page/${this.state.term}`);
-		}
-	}
+
+    onSearchClick(e) {
+        if(this.state.term) {
+            this.props.history.push(`/result-page/${this.state.term}`);
+        }
+    }
 
 
     render() {
@@ -47,7 +46,7 @@ export default class SearchPage extends React.Component {
                         className="search-input"
                         id="search-input"
                         name="search-input"
-						required="required"
+                        required="required"
                         placeholder="city,venue..."
                         value={this.state.term}
                         onChange={this.onInputChange} />
