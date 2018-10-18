@@ -1,6 +1,7 @@
 # Travelers fullstack Capstone
 
 Travelers is for travelers to search world wide venues and make own list.
+Server side repo: https://github.com/realnuno/travelers-capstone-server-node
 
 ## Screenshots
 
@@ -26,7 +27,7 @@ Main Page             |  Mylist Page
 ![Main Page](https://github.com/realnuno/travelers-fullstack-capstone/blob/master/readme-imgs/Image1.jpeg)  |  ![Mylist Page](https://github.com/realnuno/travelers-fullstack-capstone/blob/master/readme-imgs/Image2.jpeg)
 
 ## Working Prototype
-You can access a Node working prototype of the app here: https://travelers-fullstack-capstone.herokuapp.com/ and React working prototype https://realnuno.github.io/travelers-fullstack-capstone-react/build
+You can access a Node working prototype of the app here: https://travelers-server.herokuapp.com/ and React working prototype https://realnuno.github.io/travelers-fullstack-capstone-react/build
 
 ## Functionality
 The app's functionality includes:
@@ -46,7 +47,7 @@ App is strongly built to be usuable on mobile devices, as well as responsive acr
 ## Development Roadmap
 This is v1.0 of the app, but future enhancements are expected to include:
 * Fancy alert for invalid inputs for example, invalid ID or password, search term.
-* Divided sections of MyList for different genre of videos.
+* Divided sections of MyList for different kind of venues.
 
 #  The typical command lines for capstone projects
 
