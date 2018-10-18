@@ -29,19 +29,18 @@ export class LoginForm extends React.Component {
                     Travelers
                 </h1>
                 <h1 className="section-title">log in</h1>
-                <label htmlFor="login-email-input">Username</label>
                 <Field
                     component={Input}
                     type="email"
-                    defaultValue="note.."
+                    placeholder="email"
                     name="loginEmailInput"
                     id="login-email-input"
                     validate={[required, nonEmpty]}
                 />
-                <label htmlFor="login-password-input">Password</label>
                 <Field
                     component={Input}
                     type="password"
+					placeholder="password"
                     name="loginPasswordInput"
                     id="login-password-input"
                     validate={[required, nonEmpty]}

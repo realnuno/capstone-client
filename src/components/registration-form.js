@@ -28,28 +28,26 @@ export class RegistrationForm extends React.Component {
                 	Travelers
                 </h1>
 				<h1 className="section-title">sign up</h1>
-                <label htmlFor="firstName">First name</label>
-                <Field component={Input} placeholder="email" type="text" name="firstName" />
-                <label htmlFor="lastName">Last name</label>
-                <Field component={Input} type="text" name="lastName" />
-                <label htmlFor="username">Username</label>
+                <Field component={Input} placeholder="First name" type="text" name="firstName" />
+                <Field component={Input} placeholder="Last name" type="text" name="lastName" />
                 <Field
                     component={Input}
                     type="email"
+					placeholder="email" 
                     name="username"
                     validate={[required, nonEmpty, isTrimmed]}
                 />
-                <label htmlFor="password">Password</label>
                 <Field
                     component={Input}
                     type="password"
+					placeholder="password" 
                     name="password"
                     validate={[required, passwordLength, isTrimmed]}
                 />
-                <label htmlFor="passwordConfirm">Confirm password</label>
                 <Field
                     component={Input}
                     type="password"
+					placeholder="passwordConfirm" 
                     name="passwordConfirm"
                     validate={[required, nonEmpty, matchesPassword]}
                 />

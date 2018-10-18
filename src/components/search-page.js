@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+//import {required, nonEmpty} from '../validators';
 import HeaderBar from './header-bar';
 
 export default class SearchPage extends React.Component {
@@ -9,6 +10,7 @@ export default class SearchPage extends React.Component {
         this.state = { term: "" };
 
         this.onInputChange = this.onInputChange.bind(this);
+		this.onSearchClick = this.onSearchClick.bind(this);
     }
 	
 	componentDidMount() {
@@ -19,6 +21,13 @@ export default class SearchPage extends React.Component {
     onInputChange(event) {
         this.setState({ term: event.target.value });
     }
+	
+	onSearchClick(e) {
+		console.log(this.state.term)
+		if(this.state.term) {
+			this.props.history.push(`/result-page/${this.state.term}`);
+		}
+	}
 
 
     render() {
@@ -38,12 +47,11 @@ export default class SearchPage extends React.Component {
                         className="search-input"
                         id="search-input"
                         name="search-input"
+						required="required"
                         placeholder="city,venue..."
                         value={this.state.term}
                         onChange={this.onInputChange} />
-                    <Link to={`/result-page/${this.state.term}`}>
-                        <button id="search-button" className="button search-button">search</button>
-                    </Link>
+                        <button onClick={this.onSearchClick} id="search-button" className="button search-button">search</button>
                 </form>
             </div>
           </div>
