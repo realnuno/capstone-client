@@ -4,15 +4,13 @@ Travelers is for travelers to search world wide venues and make own list.
 
 ## Screenshots
 
-Home Page View | Description  page View
+Login Page | Search Page
 :-------------------------:|:-------------------------:
-![Home Page](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/landing-page.png)  |  ![description  page](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/description-page.png)
-Search-results Page View| Pop-up video Page View
-![Search-results Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/search-results-page.png) | ![Pop-up video Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/popup-video-page.png)
-Edit & Add Page View  | My-list Page View
-![Edit & Add Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/edit-page.png) | ![My-list Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/mylist-page.png)
-Log in Page View | Sign Up Page View
-![Log in Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/login-page.png) |![Sign Up Page View](https://github.com/realnuno/youtube-journal-node-capstone/blob/master/readme-imgs/signup-page.png)
+![Login Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/login-page.png)  |  ![Search Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/search-page.png)
+Result Page| Detail Page
+![Result Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/result-page.png) | ![Detail Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/detail-info-page.png)
+Mylist Page View  | Sign Up Page View
+![Mylist Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/mylist-page.png) | ![Sign Up Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/signup-page.png)
 
 
 ## User Cases
