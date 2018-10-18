@@ -30,13 +30,13 @@ You can access a Node working prototype of the app here: https://travelers-fulls
 
 ## Functionality
 The app's functionality includes:
-* User can search for your favorite videos
-* User can save favorite videos into your favorites list
-* User can record ideas and ruminations about the video topics in your own personal journal
+* User can search for every place on Earth
+* User can save favorite place results into your favorites list
+* User can record ideas and ruminations about the venue in your own personal note
 
 ## Technology
-* Front-End: HTML5 | CSS3 | JavaScript ES6 | jQuery
-* Back-End: Node.js | Express.js | JWT Authentication | Bcrypt | Passport | Mocha | Chai | RESTful API Endpoints | MongoDB | MLab| Mongoose |Travis CI
+* Front-End: HTML5 | CSS3 | JavaScript ES6 | React | Redux | Enzyme
+* Back-End: Node.js | Express.js | JWT Authentication | Bcrypt | Passport | Mocha | Chai | RESTful API Endpoints | MongoDB | MLab | Mongoose | Travis CI
 
 
 
