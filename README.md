@@ -1,7 +1,7 @@
 # Travelers fullstack Capstone
 
-Travelers is for travelers to search world wide venues and make own list.
-Server side repo: https://github.com/realnuno/travelers-capstone-server-node
+*Travelers is for travelers to search world wide venues and make own list.
+*Server side repo: https://github.com/realnuno/travelers-capstone-server-node
 
 ## Screenshots
 
