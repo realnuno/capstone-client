@@ -1,7 +1,10 @@
 ## Travelers fullstack Capstone
 
-*Travelers is for travelers to search world wide venues and make own list.
-*Server side repo: https://github.com/realnuno/travelers-capstone-server-node
+"Travelers" is website that allows you to find your next travel destination and record personalized notes for vacation planning. When you search for any destination in the world, you will get recommendations for nice venues and places to visit in the area and detailed information about those places including pictures and maps. You can conveniently save your results along with any notes you've made in your personalized list. "Travelers" makes traveling easy! 
+
+## Server side repo
+
+https://github.com/realnuno/travelers-capstone-server-node
 
 ## Screenshots
 
@@ -15,10 +18,10 @@ Mylist Page View  | Sign Up Page View
 
 
 ## User Cases
-This app is for this type of users:
-1. NEW PLACE FOR TRAVEL - For travelers, so that they can search and get a lot of recommendations for new places to visit.
-2. OWN PLAY LIST - Users can save favorite results into your favorites list so they can check them any time without re-search.
-3. WITH NOTE - Users can record ideas and ruminations about the places in your own personal note.
+This app is for travelers who are seeking:
+1. A NEW PLACE FOR TRAVEL - For travelers, so that they can search and get a lot of recommendations for new places to visit.
+2. TO SAVE A LIST OF PLACES TO VISIT- Users can save favorite results into your favorites list so they can check them any time without re-search.
+3. TO BE ABLE TO SAVE PERSONALIZED TRAVEL SEARCHES WITH NOTES - Users can record ideas and ruminations about the places in your own personal note.
 
 
 ### Wireframes

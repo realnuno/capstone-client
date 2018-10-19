@@ -28,6 +28,9 @@ export class LoginForm extends React.Component {
                 <h1 className="title">
                     Travelers
                 </h1>
+				<h4 className='intro'>
+					Find your next vacation destination.<br/> Get local popular venues and attractions, and detailed maps for any location in the world. 
+				</h4>
                 <h1 className="section-title">log in</h1>
                 <Field
                     component={Input}
