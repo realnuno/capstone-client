@@ -11,8 +11,13 @@ export function LandingPage(props) {
     }
 
     return (
+        <div>
         <div className="login-page">
             <LoginForm />
+        </div>
+                <h4 className='intro'>
+                    Find your next vacation destination.<br/> Get local popular venues, attractions and detailed maps for any location in the world.
+                </h4>
         </div>
     );
 }
