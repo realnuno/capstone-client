@@ -8,12 +8,12 @@ https://github.com/realnuno/travelers-capstone-server-node
 
 ## Screenshots
 
-Login Page | Search Page
+Login Page View | Search Page View
 :-------------------------:|:-------------------------:
-![Login Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/login-page.png)  |  ![Search Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/search-page.png)
-Result Page| Detail Page
-![Result Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/result-page.png) | ![Detail Page](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/detail-info-page.png)
-Mylist Page View  | Sign Up Page View
+![Login Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/login-page.png)  |  ![Search Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/search-page.png)
+Result Page View | Detail Page View
+![Result Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/result-page.png) | ![Detail Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/detail-info-page.png)
+Mylist Page View | Sign Up Page View
 ![Mylist Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/mylist-page.png) | ![Sign Up Page View](https://github.com/realnuno/travelers-capstone-client-react/blob/master/readme-imgs/signup-page.png)
 
 
